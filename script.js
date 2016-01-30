@@ -39,7 +39,6 @@
 		// If we're on the first item, go to the end
 		if (currentIndex === 0) {
 			punEl.textContent = puns[lastIndex];
-			console.log("reset to end");
 		// Else, decrement
 		} else {
 			punEl.textContent = puns[currentIndex - 1]
@@ -54,7 +53,6 @@
 		// If we're on the last item, go to the beginning
 		if (currentIndex === lastIndex) {
 			punEl.textContent = puns[0];
-			console.log("reset to beginning");
 		// Else, increment
 		} else {
 			punEl.textContent = puns[currentIndex + 1]
