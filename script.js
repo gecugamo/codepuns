@@ -28,7 +28,7 @@
 	function punInit() {
 		var currentIndex = getIndex();
 
-		punEl.textContent = puns[lastIndex];
+		punEl.textContent = puns[0];
 		updateIndex();
 	}
 
