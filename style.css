@@ -73,6 +73,12 @@ body,
 }
 
 .nav {
+    position: fixed;
+    right: 0;
+    bottom: 30px;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
     width: 175px;
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -82,7 +88,6 @@ body,
         -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
               justify-content: space-between;
-    font-size: 1.6em;
 }
 
 .nav__link {
