@@ -2,11 +2,11 @@
 	"use strict";
 
 	var puns = [
-		"Whatever Floats Your Div",
-		"Mo' Plugins, Mo' Problems",
-		"Float Like a Butterfly, Sting Like a Clean",
-		"Gulp Some Gist",
-		"You Know I'm All About That Database, Database, MySQL"
+		"Whatever floats your div",
+		"Mo' plugins, mo' problems",
+		"Float like a butterfly, sting like a clean",
+		"I don't want someone who can get things done, I want someone who can get things done right",
+		"You know i'm all about that database, database, mysql"
 	];
 
 	var punEl = document.getElementById("pun");
