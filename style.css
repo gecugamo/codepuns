@@ -70,6 +70,7 @@ body,
 #pun {
     margin-bottom: 30px;
     font-size: 3.6em;
+    text-transform: capitalize;
 }
 
 .nav {
